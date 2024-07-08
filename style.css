@@ -117,13 +117,13 @@ main{
 }
 
 main section{
+    border-radius: 10px;
     margin-top: 130px;
     margin-bottom: 130px;
 }
 
 /* about styles */
 .about{
-    border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     
@@ -134,4 +134,35 @@ main section{
 }
 .item-description{
     font-weight: 600;
+}
+/*about section styles*/
+
+.skills-container{
+    padding: 30px;
+    text-align: center;
+   
+}
+.skills-content{
+    display: flex;
+    gap: 10px;
+   
+}
+.skill{
+    
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*resume section styles*/
+.resume-container{
+      padding: 30px;
+      text-align: center;
+      
+}
+.resume-content{
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+   
 }
