@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -10,7 +11,7 @@
 
 /* shared style */
 .secondary-bg {
-    background-color: #FFF8F3;
+    background-color: rgb(255, 248, 243);
 }
 
 .text-primary {
@@ -91,6 +92,8 @@ nav li a {
 
 .banner-content {
     max-width: 580px;
+
+
 }
 
 .banner-greetings {
@@ -105,4 +108,30 @@ nav li a {
 
 .banner-profile-pic {
     width: 580px;
+}
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
 }
